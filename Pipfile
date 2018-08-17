@@ -1,0 +1,17 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+pytest = "*"
+ipython = "*"
+ipdb = "*"
+ply = "*"
+"autopep8" = "*"
+pylint = "*"
+rope = "*"
