@@ -15,7 +15,7 @@ This decorator turns a function or an object method into a `func_pipe` object an
 Let's see an example. Assume that you have the following functions decorated with `func_pipe`:
 
 ```python
-from dpl.pipe import chain_pipe
+from dpl.pipe import func_pipe
 @func_pipe
 def add_1(x):
     return x + 1
